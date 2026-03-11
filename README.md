@@ -286,10 +286,12 @@ In that sense, the current paper is both:
 
 ---
 
-## Citation / usage
+## Citation
 
-If you use this repository, cite the manuscript and acknowledge the code/data package used to generate the figures and master outputs.
+If you use this repository, please cite the Zenodo release:
 
+**Stephen Nagy. _VIG-Framework_. Version 1.0.1. Zenodo. 2026.**  
+DOI: [10.5281/zenodo.18949165](https://doi.org/10.5281/zenodo.18949165)
 ---
 
 ## Status
@@ -298,3 +300,12 @@ If you use this repository, cite the manuscript and acknowledge the code/data pa
 **Next expansion path:** extend the validated framework model-by-model into a universal regular black-hole interior atlas.
 
 ```
+@software{nagy_vig_framework_2026,
+  author  = {Stephen Nagy},
+  title   = {VIG-Framework},
+  version = {1.0.1},
+  year    = {2026},
+  publisher = {Zenodo},
+  doi     = {10.5281/zenodo.18949165},
+  url     = {https://doi.org/10.5281/zenodo.18949165}
+}
