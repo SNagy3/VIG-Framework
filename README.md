@@ -214,6 +214,10 @@ The master driver currently:
 * full-edge Hayward vs. Bardeen comparison
 * stronger suppression by Bardeen than Hayward across the overlap
 
+### Known approximation limits
+
+* The small-deformation (small-λ) analytic approximation for the Hayward model breaks down at high deformation: relative error reaches ~84% at λ=0.75 (near extremality). Use `Ccrit_numeric` values for λ > 0.6.
+
 ### Not yet established
 
 * a fully general theorem covering all regular black-hole models
