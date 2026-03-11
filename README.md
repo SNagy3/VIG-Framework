@@ -1,3 +1,6 @@
+Absolutely — here is a full `README.md` you can paste as-is, with **no filename changes**.
+
+
 # Verum Interior Gauge (VIG)
 
 A reproducible research framework for comparative critical-growth laws in regular black-hole interiors.
@@ -72,7 +75,7 @@ Current manuscript files:
 - `VIG_Framework_V7_Final-1.tex`
 - `VIG_Framework_V7_Final.pdf`
 
-These contain the current final paper-form manuscript for the validated two-model framework.
+These contain the current paper-form manuscript for the validated two-model framework.
 
 ---
 
@@ -171,5 +174,128 @@ The master driver reads the accumulated validated CSV products and compiles them
 ### Main entry point
 Run:
 
-```bash
 python vig_master_driver.py
+
+Or specify an output directory:
+
+python vig_master_driver.py --outdir master_results
+
+### What the master driver does
+
+The master driver currently:
+
+* reconstructs the Universal Clock bookkeeping summary,
+* loads the validated Hayward atlas outputs,
+* loads the validated Bardeen atlas and edge outputs,
+* builds the full-edge Hayward–Bardeen comparison grid,
+* exports master summaries,
+* and generates the final comparison figures.
+
+### Expected master outputs
+
+* `master_universal_clock_summary.csv`
+* `master_hayward_atlas.csv`
+* `master_bardeen_atlas.csv`
+* `master_full_edge_common_grid.csv`
+* `master_full_edge_combined_atlas.csv`
+* `master_multimodel_summary.csv`
+* `master_manifest.csv`
+
+---
+
+## What is established vs. what remains open
+
+### Established in the current paper
+
+* Schwarzschild anchor recovery
+* exact Hayward critical-growth reduction
+* exact Bardeen critical-growth reduction
+* weak-deformation and near-edge asymptotic structure for the validated models
+* numerical tracking of the family tail by (C_{\rm crit})
+* full-edge Hayward vs. Bardeen comparison
+* stronger suppression by Bardeen than Hayward across the overlap
+
+### Not yet established
+
+* a fully general theorem covering all regular black-hole models
+* a rigorously validated multi-model atlas including all exploratory models
+* a finite interior saturation law
+* derivation of the Universal Clock ansatz from first principles
+* observational confirmation of the framework
+
+---
+
+## Universal Clock note
+
+The repository still contains the earlier Universal Clock path through:
+
+* `universal_clock.py`
+* related merged manuscript material
+
+This part of the project is retained because it motivated the framework historically. However, in the current validated paper, the **comparative critical-growth law** is the main result, while the Universal Clock remains a downstream conjectural extension.
+
+---
+
+
+---
+
+## Dependencies
+
+Typical Python dependencies used in the project include:
+
+* `numpy`
+* `pandas`
+* `matplotlib`
+
+Some earlier exploratory scripts may also expect:
+
+* `scipy`
+
+The current master driver is designed to be lightweight and use accumulated CSV products where possible.
+
+---
+
+## How to read the project
+
+If you are new to the repository, the recommended reading order is:
+
+1. `VIG_Framework_V7_Final.pdf`
+2. `vig_master_driver.py`
+3. `vig_unified_framework_v4.py`
+4. `vig_bardeen_unified_v1.py`
+5. `vig_bardeen_edge_scan_v1.py`
+6. `vig_hayward_bardeen_comparison.py`
+7. the CSV data products
+8. the master outputs
+
+---
+
+## Current vision
+
+The long-term goal is not to stop at Hayward and Bardeen.
+
+The long-term goal is to place **every regular black-hole model** under the same framework:
+
+[
+f(r);\longrightarrow;Q(r;C);\longrightarrow;\Ccrit(M,u);\longrightarrow;\text{family scan};\longrightarrow;\text{comparative atlas}.
+]
+
+In that sense, the current paper is both:
+
+* a finished result,
+* and the foundation of a larger interior classification program.
+
+---
+
+## Citation / usage
+
+If you use this repository, cite the manuscript and acknowledge the code/data package used to generate the figures and master outputs.
+
+---
+
+## Status
+
+**Current status:** final validated two-model paper baseline with reproducibility spine in place.
+**Next expansion path:** extend the validated framework model-by-model into a universal regular black-hole interior atlas.
+
+```
