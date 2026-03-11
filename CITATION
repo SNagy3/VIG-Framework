@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "VIG-Framework"
+type: software
+authors:
+  - family-names: "Nagy"
+    given-names: "Stephen"
+version: "1.0.1"
+doi: 10.5281/zenodo.18949165
+date-released: 2026-03-11
+repository-code: "https://github.com/SNagy3/VIG-Framework"
+url: "https://doi.org/10.5281/zenodo.18949165"
+abstract: >
+  Verum Interior Gauge (VIG): a reproducible framework for comparative critical-growth
+  laws in regular black-hole interiors, with exact and asymptotic results for Hayward
+  and Bardeen models, full-edge comparison, master-driver outputs, and manuscript-grade
+  figures, code, and data.
+keywords:
+  - black holes
+  - regular black holes
+  - Hayward
+  - Bardeen
+  - maximal slices
+  - reproducible research
+  - general relativity
+license: "MIT"
