@@ -1,9 +1,10 @@
 # Verum Interior Gauge (VIG)
-
+DOI: **10.5281/zenodo.18949165**
 A reproducible research framework for comparative critical-growth laws in regular black-hole interiors.
 
 This repository develops and tests the **Verum Interior Gauge (VIG)** program: a geometric framework for studying the near-critical maximal-slice growth law inside black holes. The current validated core of the project is a comparative analysis of **Hayward** and **Bardeen** regular black-hole models, anchored to the **Schwarzschild** limit and extended through exact reductions, asymptotic analysis, numerical atlas generation, edge scans, and full comparative overlays.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18949165.svg)](https://doi.org/10.5281/zenodo.18949165)
 ---
 
 ## Core result
