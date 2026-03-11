@@ -1,6 +1,3 @@
-Absolutely — here is a full `README.md` you can paste as-is, with **no filename changes**.
-
-
 # Verum Interior Gauge (VIG)
 
 A reproducible research framework for comparative critical-growth laws in regular black-hole interiors.
