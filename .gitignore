@@ -1,0 +1,61 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Matplotlib cache
+.matplotlib/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Keep final manuscript PDFs, figures, and validated CSV outputs tracked.
+# Do NOT ignore Paper/*.pdf, Figures/*.png, Results/*.csv, or data/*.csv by default.
