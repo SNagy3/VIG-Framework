@@ -8,7 +8,7 @@ The Master Driver reads the CSV inputs from that shared location and generates t
 
 ## Usage
 
-1. Collect all required CSV files.
+1. Collect all required CSV files from the /data section.
 2. Copy all CSV files into a single working directory.
 3. Copy `vig_master_driver.py` into that same directory.
 4. Run:
